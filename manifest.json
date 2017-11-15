@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "reload-button",
+  "version": "1.0",
+  "description": "Add a reload button to the address bar",
+  "homepage_url": "https://github.com/kwierso/reload-button",
+  "icons": {
+    "128": "icons/refresh-black-128.png"
+  },
+
+  "permissions": [
+    "tabs"
+  ],
+
+  "page_action": {
+    "default_icon": "icons/refresh-black-128.png",
+    "default_title": "Reload current page (Ctrl+R)"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+
+}
